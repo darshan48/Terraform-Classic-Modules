@@ -3,7 +3,7 @@ module "cloudgeeks-ec2-sg" {
   region = "eu-west-2"
   vpc-id = "${module.vpc.vpc-id}"
   ec2-sg-name = "ec2-sg"
-
+######## practise vstudio #########
   ###SECURITY INBOUND GROUP RULES###
   #RULE-1-INBOUND-RULES
   rule-1-from-port= 80
